@@ -20,7 +20,6 @@ d) Write out the results found from steps b and c with a message describing what
 
 a) n= Input “Enter 5 integer value”
 
-
 b) sum=0.0
 
 For loop with i ranging from 0 - 5
@@ -31,13 +30,13 @@ Outside loop avg= sum/5
 
 Print avg
 
-c) small=n[0] # assume the first number in the list is smallest
+c) small=n[1] # assume the first number in the list is smallest
 
-large= n[0] # assume the first number in the list is largest
+large= n[5] # assume the first number in the list is largest
 
-For loop with i ranging from 0 - 5
+For loop with i ranging from 1 - 5
 
-Inside loop if n[i]<small #if any another number is smaller than small(variable)
+Inside loop if n[i]<small # if any another number is smaller than small(variable)
 
 Inside if Then small=n[i]
 
